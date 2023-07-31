@@ -1,0 +1,76 @@
+@media (max-width: 1040px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 1600px) {
+  .sidebar {
+    width: 300px;
+  }
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  border-right: 1px solid rgba(85, 82, 124, 0.1);
+  font-family: "Quicksand", sans-serif;
+}
+
+.sidebar-image {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  border: 3px solid bisque;
+  border-radius: 50%;
+}
+
+.sidebar-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidebar-work {
+  margin-top: -8px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 0.2;
+}
+
+.sidebar-buttons {
+  padding: 90px;
+}
+
+.button {
+  text-align: center;
+  padding: 2px;
+  font-size: 15px;
+}
+
+.button a {
+  color: black;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: brown;
+}
+
+.sidebar-icons {
+  display: inline;
+  padding-left: 40px;
+}
+
+.icon {
+  width: 25px;
+  padding: 5px;
+}
+
+.sidebar-footer {
+  text-align: center;
+  line-height: 0.8;
+}
