@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/anjula-portfolio/static/css/main.52afa4e3.css",
+    "main.js": "/anjula-portfolio/static/js/main.dad5afad.js",
+    "static/js/787.d2e9f770.chunk.js": "/anjula-portfolio/static/js/787.d2e9f770.chunk.js",
+    "static/media/big.PNG": "/anjula-portfolio/static/media/big.f51e9a98343b09bf8e9d.PNG",
+    "static/media/profile.png": "/anjula-portfolio/static/media/profile.6bc738e47274892be6bb.png",
+    "static/media/icons8-github.svg": "/anjula-portfolio/static/media/icons8-github.52038f708085aaed24b27fd472bd3725.svg",
+    "index.html": "/anjula-portfolio/index.html",
+    "static/media/icons8-medium.svg": "/anjula-portfolio/static/media/icons8-medium.c061ee835e3724cbeee7d8c7ea3beb83.svg",
+    "static/media/icons8-youtube.svg": "/anjula-portfolio/static/media/icons8-youtube.e936bf40921df01a471fc55485e98c52.svg",
+    "static/media/icons8-linkedin.svg": "/anjula-portfolio/static/media/icons8-linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
+    "static/media/icons8-facebook (1).svg": "/anjula-portfolio/static/media/icons8-facebook (1).73ab77eac908b0190d1dbf9fc5e3a672.svg",
+    "main.52afa4e3.css.map": "/anjula-portfolio/static/css/main.52afa4e3.css.map",
+    "main.dad5afad.js.map": "/anjula-portfolio/static/js/main.dad5afad.js.map",
+    "787.d2e9f770.chunk.js.map": "/anjula-portfolio/static/js/787.d2e9f770.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52afa4e3.css",
+    "static/js/main.dad5afad.js"
+  ]
+}
