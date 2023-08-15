@@ -1,5 +1,19 @@
 @import "animate.css";
 
+@media (max-width: 2500px) {
+  body {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1600px) {
+  body {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
 @media (max-width: 1040px) {
   .home {
     padding: 100px 0px;
