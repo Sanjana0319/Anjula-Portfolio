@@ -13,7 +13,14 @@ export default function SideBar() {
     <div className="sidebar">
       <div>
         <img src={profile} className="sidebar-image" alt="profile" />
-        <p className="sidebar-name">Anjula Shanaka</p>
+        <div className="sidebar-name">
+          <h3>
+            <span>
+              <span className="grey">Anjula Shanaka</span>
+              <span className="back">Anjula Shanaka</span>
+            </span>
+          </h3>
+        </div>
       </div>
       <div className="sidebar-work">
         <p>QA Fellow @openMRS | CTO @SEF </p>
@@ -21,59 +28,59 @@ export default function SideBar() {
         <p>Undergraduate @USJ</p>
       </div>
       <div className="sidebar-buttons">
-        <div className="button">
+        <div className="sideButton">
           <a href="#">Home</a>
         </div>
         <br />
-        <div className="button">
+        <div className="sideButton">
           <a href="#">About</a>
         </div>
         <br />
-        <div className="button">
+        <div className="sideButton">
           <a href="#">Services</a>
         </div>
         <br />
-        <div className="button">
+        <div className="sideButton">
           <a href="#">Portfolio</a>
         </div>
         <br />
-        <div className="button">
+        <div className="sideButton">
           <a href="#">Blog</a>
         </div>
         <br />
-        <div className="button">
+        <div className="sideButton">
           <a href="#">Contact</a>
         </div>
       </div>
       <div className="sidebar-icons">
         <span>
-          <a href="#">
-            <img src={github} className="icon"></img>
+          <a href="https://github.com/anjula-sack">
+            <img src={github} className="icon" />
           </a>
         </span>
         <span>
-          <a href="#">
-            <img src={medium} className="icon"></img>
+          <a href="https://anjulashanaka.medium.com/">
+            <img src={medium} className="icon" />
           </a>
         </span>
         <span>
-          <a href="#">
-            <img src={youtube} className="icon"></img>
+          <a href="https://www.youtube.com/channel/UCLjQYVhICeegPX6ah4-dQpw">
+            <img src={youtube} className="icon" />
           </a>
         </span>
         <span>
-          <a href="#">
-            <img src={facebook} className="icon"></img>
+          <a href="https://www.facebook.com/anjula.shanaka">
+            <img src={facebook} className="icon" />
           </a>
         </span>
         <span>
-          <a href="#">
-            <img src={linkedin} className="icon"></img>
+          <a href="linkedin.com/in/anjula-sack/">
+            <img src={linkedin} className="icon" />
           </a>
         </span>
         <span>
-          <a href="#">
-            <img src={cv} className="icon"></img>
+          <a href="https://docs.google.com/document/d/1gkvfwb1J_JHN9UdOeG6Q8PAvWTyMHPUjC2N2nbfqK0Q/edit">
+            <img src={cv} className="icon" />
           </a>
         </span>
       </div>
