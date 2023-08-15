@@ -245,7 +245,6 @@ img {
   float: left;
   display: flex;
   align-items: center;
-  margin-bottom: 150px;
 }
 
 .buttons {
@@ -270,6 +269,7 @@ img {
 }
 
 .info ul {
+  padding: 10px;
   position: relative;
   list-style-type: none;
 }
@@ -279,14 +279,14 @@ img {
   content: "";
   width: 4px;
   background-color: #f8cba6;
-  top: 88%;
-  bottom: 0px;
+  top: 82%;
   height: 100px;
   display: flex;
 }
 
 .home .info ul li {
   padding: 4px;
+  padding-left: 20px;
 }
 
 .home .info ul li a:hover {
@@ -305,9 +305,4 @@ img {
   font-weight: 600;
   font-size: 18px;
   transition: all 0.3s ease;
-}
-
-a {
-  text-decoration: none;
-  border: none;
 }
