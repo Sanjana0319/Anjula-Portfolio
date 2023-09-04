@@ -89,7 +89,7 @@
 .sideButton {
   text-align: center;
   padding: 0px;
-  margin-block: -10px;
+  margin-block: -5px;
   font-size: 15px;
 }
 
@@ -110,7 +110,7 @@
 .icon {
   width: 25px;
   padding: 5px;
-  margin-top: -20px;
+  margin-top: 40px;
 }
 
 .sidebar-footer {

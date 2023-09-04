@@ -22,12 +22,12 @@ export default function Home() {
                   </span>
                 </span>
               </h3>
-              <h3>Based in Sri Lanka</h3>
+              <h3 className="country">Based in Sri Lanka</h3>
             </div>
             <div className="subtitle">
               <p>
-                I'm a Florida based web designer &amp; front‑end developer with{" "}
-                <span className="color">10+ years</span> of experience
+                I'm a Sri Lanka based web designer &amp; front‑end developer
+                with <span className="color">4+ years</span> of experience
               </p>
             </div>
             <div className="buttons">
