@@ -4,56 +4,41 @@
   }
 }
 
-@media (max-width: 1600px) {
-  .sidebar {
-    width: 300px;
-  }
-}
-
 .sidebar {
+  width: 20vw;
   background-color: white;
-  width: 300px;
   height: 100vh;
   position: fixed;
-  left: 0px;
-  top: 0px;
+  left: 0vw;
+  top: 0vh;
   font-family: "Quicksand", sans-serif;
 }
 
-@media (max-width: 1600px) {
-  .sidebar .sidebar-name span {
-    font-size: 50px;
-  }
-}
-
-@media (max-width: 1600px) {
-  .sidebar .sidebar-name .back {
-    font-size: 18px;
-  }
-}
-
 .sidebar .sidebar-name {
-  width: 100%;
+  width: 20vw;
+  height: 10vh;
   float: left;
-  margin-top: -9px;
+  margin-top: 0vh;
 }
 
 .sidebar .sidebar-name .back {
+  height: 1vh;
   position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 3vh;
+  left: 10vw;
   transform: translate(-50%, -50%);
   z-index: 1;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
-  margin-top: 5px;
+  margin-top: 0vw;
   color: black;
 }
 
 .sidebar .sidebar-name .grey {
-  left: 17%;
+  height: 100vh;
+  left: 4vw;
   font-size: 50px;
   color: rgb(233, 233, 233);
 }
@@ -68,28 +53,37 @@
 }
 
 .sidebar-image {
-  width: 100px;
-  margin-top: 20px;
-  margin-left: 100px;
+  width: 8vw;
+  margin-top: 5vh;
+  margin-left: 6vw;
   border: 3px solid bisque;
   border-radius: 50%;
 }
 
 .sidebar-work {
-  margin-top: -8px;
+  height: 0vh;
+  margin-top: 5vw;
   font-size: 12px;
   text-align: center;
   line-height: 0.3;
 }
 
 .sidebar-buttons {
-  padding: 85px;
+  width: 0vw;
+  height: 15vh;
+  padding: 8vw;
+}
+
+@media (max-width: 1440px) {
+  .sidebar-buttons {
+    padding-top: 25vh;
+    height: 20vh;
+  }
 }
 
 .sideButton {
   text-align: center;
-  padding: 0px;
-  margin-block: -5px;
+  margin-top: -0.8vw;
   font-size: 15px;
 }
 
@@ -104,16 +98,16 @@
 
 .sidebar-icons {
   display: inline;
-  padding-left: 40px;
+  padding-left: 3vw;
 }
 
 .icon {
-  width: 25px;
-  padding: 5px;
-  margin-top: 40px;
+  width: 1.5vw;
+  padding: 0.4vw;
+  margin-top: 4vh;
 }
 
 .sidebar-footer {
   text-align: center;
-  line-height: 0.8;
+  line-height: 0.3;
 }
