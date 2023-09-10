@@ -1,11 +1,11 @@
 import React from "react";
 import profile from "./images/profile.png";
-import facebook from "./images/facebook/icons8-facebook (1).svg";
-import youtube from "./images/youtube/icons8-youtube.svg";
-import github from "./images/github/icons8-github.svg";
-import medium from "./images/medium/icons8-medium.svg";
-import linkedin from "./images/linkedin/icons8-linkedin.svg";
-import cv from "./images/cv/icons8-cv-64.png";
+import facebook from "./images/icons/facebook.svg";
+import youtube from "./images/icons/youtube.svg";
+import github from "./images/icons/github.svg";
+import medium from "./images/icons/medium.svg";
+import linkedin from "./images/icons/linkedin.svg";
+import cv from "./images/icons/cv.png";
 import "./style.css";
 
 export default function SideBar() {
