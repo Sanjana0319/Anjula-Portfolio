@@ -110,4 +110,35 @@
 .sidebar-footer {
   text-align: center;
   line-height: 0.3;
+  font-size: 12px;
+}
+
+@media (min-width: 2880px) {
+  .sidebar-buttons {
+    padding-top: 32vh;
+    height: 20vh;
+  }
+  .sideButton {
+    margin: 1px;
+    font-size: 25px;
+  }
+  .sidebar .sidebar-name .grey {
+    margin-left: 1vw;
+    font-size: 70px;
+    margin-top: 3vw;
+  }
+  .sidebar .sidebar-name .back {
+    font-size: 28px;
+    margin-top: -1vh;
+  }
+  .sidebar-work {
+    font-size: 18px;
+    margin-top: -20px;
+  }
+  .sidebar-image {
+    margin-bottom: -4vh;
+  }
+  .sidebar-footer {
+    font-size: 18px;
+  }
 }
