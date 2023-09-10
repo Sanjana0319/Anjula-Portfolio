@@ -1,6 +1,6 @@
 import "./App.css";
-import Home from "./home";
-import SideBar from "./sidebar";
+import Home from "./components/home";
+import SideBar from "./components/sidebar";
 
 function App() {
   return (
