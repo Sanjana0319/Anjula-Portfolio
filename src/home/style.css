@@ -11,36 +11,8 @@
 }
 
 .left {
-  margin-left: 150px;
+  margin-left: 10vw;
   align-items: center;
-}
-
-@media (max-width: 640px) {
-  .home {
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .left {
-    width: 100vw;
-    margin-left: -70px;
-    margin-top: 600px;
-  }
-  .home .title {
-    width: 100vw;
-    font-weight: 100;
-    font-size: 50px;
-    line-height: 20px;
-  }
-
-  .info ul:before {
-    margin-left: -110px;
-    margin-top: 500px;
-  }
-  .right {
-    width: 100vw;
-    margin: -200px 100px 300px -400px;
-  }
 }
 
 .home {
@@ -237,11 +209,11 @@ img {
 .info ul:before {
   position: absolute;
   content: "";
-  width: 4px;
+  width: 0.2vw;
   background-color: #f8cba6;
-  top: 78%;
-  left: 30%;
-  height: 100px;
+  top: 37vw;
+  left: 30vw;
+  height: 6vw;
   display: flex;
 }
 
@@ -266,4 +238,77 @@ img {
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
+}
+
+@media (max-width: 575px) and (min-width: 0px) {
+  .home {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .left {
+    width: 100vw;
+    margin-left: -5vw;
+    margin-top: 55vh;
+    overflow: hidden;
+  }
+  .home .title {
+    width: 100vw;
+  }
+  .home .title h3 {
+    font-size: 8vw;
+  }
+  .home .title span {
+    font-size: 8vw;
+  }
+  .info ul:before {
+    margin-left: -25vw;
+    margin-top: 27vh;
+    width: 0.7vw;
+    height: 20vw;
+  }
+  .info ul {
+    margin-top: -10vw;
+  }
+  .right {
+    width: 100vw;
+    margin: -40vw 0vw 110vw -100vw;
+  }
+}
+
+@media (min-width: 2880px) {
+  .title {
+    margin-top: -10vw;
+  }
+  .home .title h3 {
+    font-size: 100px;
+  }
+  .home .title span {
+    font-size: 100px;
+  }
+  .home .subtitle {
+    font-size: 35px;
+  }
+  .home .transition_link {
+    font-size: 30px;
+  }
+  .buttons a,
+  .buttons input[type="submit"] {
+    border: 3px solid #130f49;
+    border-radius: 8px;
+    padding: 15px 60px 15px 60px;
+  }
+  .home .button:nth-child(2) {
+    margin-left: 2vw;
+  }
+  .home .button {
+    margin-top: 2vw;
+  }
+  .home .info ul li a {
+    font-size: 20px;
+  }
+  .info ul {
+    /* padding-top: 2vw; */
+  }
 }
